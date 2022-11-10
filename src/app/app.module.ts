@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { CardComponent } from './card/card.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
+import { CharityComponent } from './charity/charity.component';
+import { CharityListComponent } from './charity-list/charity-list.component';
+import { ChatBoxComponent } from './chat-box/chat-box.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { SearchComponent } from './search/search.component';
     CardComponent,
     HeaderComponent,
     SearchComponent,
+    CharityComponent,
+    CharityListComponent,
+    ChatBoxComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
