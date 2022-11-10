@@ -6,3 +6,17 @@
 .light-text {
   color: rgb(0, 0, 0, 0.5);
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.nav-item {
+  margin-right: 25px;
+}

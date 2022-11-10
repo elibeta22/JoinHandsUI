@@ -8,20 +8,16 @@ import { NewsComponent } from './news/news.component';
 import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
-  { path: 'news', component: NewsComponent},
-  { path: '', component: HomeComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'home', component: HomeComponent},
-  { path: 'search', component: SearchComponent},
-  { path: 'charities', component: CharityListComponent},
-
-
-
-
+  { path: '', component: HomeComponent },
+  { path: 'news', component: NewsComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'search', component: SearchComponent },
+  { path: 'charities', component: CharityListComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
