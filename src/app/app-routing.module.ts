@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { NewsComponent } from './news/news.component';
 import { ReviewComponent } from './review/review.component';
 import { SearchComponent } from './search/search.component';
+import { ViewCharityComponent } from './view-charity/view-charity.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'charities', component: CharityListComponent },
   { path: 'financial-support', component: FinancialSupportComponent },
   { path: 'review', component: ReviewComponent },
+  { path: 'view-charity/:charityName', component: ViewCharityComponent },
 ];
 
 @NgModule({

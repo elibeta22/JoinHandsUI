@@ -1,4 +1,4 @@
-<div id="card" class="container">
+<div id="card" class="container" (click)="routing(foundationName)">
   <div id="title-row" class="row">
     <div class="col-8">
       <h4 id="title">{{ foundationName }}</h4>
@@ -39,7 +39,11 @@
 
 <!-- DELETE THIS -->
 
-<div id="card" class="container mt-2">
+<div
+  id="card"
+  class="container mt-2"
+  (click)="routing('National Pediatric Cancer Foundation')"
+>
   <div id="title-row" class="row">
     <div class="col-8">
       <h4 id="title">National Pediatric Cancer Foundation</h4>
@@ -80,7 +84,11 @@
 
 <!-- DELETE THIS -->
 
-<div id="card" class="container mt-2">
+<div
+  id="card"
+  class="container mt-2"
+  (click)="routing('American Childhood Cancer Organization')"
+>
   <div id="title-row" class="row">
     <div class="col-8">
       <h4 id="title">American Childhood Cancer Organization</h4>

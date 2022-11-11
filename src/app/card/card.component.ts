@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card',
@@ -17,7 +18,11 @@ export class CardComponent implements OnInit {
   ];
   @Input() description: string = 'We support families by...';
 
-  constructor() {}
+  constructor(private _router: Router) {}
 
   ngOnInit(): void {}
+
+  routing(charityName: string) {
+    this._router.navigate([`view-charity/${charityName}`]);
+  }
 }
