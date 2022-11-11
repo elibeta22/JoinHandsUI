@@ -1,11 +1,14 @@
+.title {
+  margin: 10px;
+}
+
 #card {
   border: 1px solid rgba(0, 0, 0, 0.19);
   border-radius: 2px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.19);
   padding: 10px 25px;
-  margin: 35px;
+  margin-bottom: 20px;
 }
-
 #title {
   margin: 0;
 }
@@ -13,16 +16,11 @@
 #title-row {
   margin-bottom: 10px;
   margin-top: 10px;
+  font-size: larger;
 }
 
 #info-row {
   margin: 10px;
-}
-
-#desc-row {
-  margin-top: 10px;
-}
-
-.smaller-font {
-  font-size: smaller;
+  font-size: larger;
+  margin-top: 3px;
 }

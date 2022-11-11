@@ -1,57 +1,49 @@
+<div class="container title">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <h3 id="title">{{ foundationName }}</h3>
+    </div>
+  </div>
+</div>
+
 <div id="card" class="container">
-  <a style="display: block" href="{{ website }}">
-    <div id="title-row" class="row">
-      <div class="col-8">
-        <h4 id="title">{{ foundationName }}</h4>
-      </div>
-    </div>
-    <div id="info-row text-center" class="row">
-      <div class="col-3">
-        <div class="container">
-          <div class="row bold-text">Location</div>
-          <div class="row light-text smaller-font">{{ location }}</div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="container">
-          <div class="row bold-text">Website</div>
-          <div class="row light-text smaller-font">
-            {{ website }}
-          </div>
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="container">
-          <div class="row bold-text">Location Supported</div>
-          <div class="row light-text smaller-font">
-            {{ locationSupported }}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="desc-row" class="row">
-      <div class="col-3">
-        <div class="container">
-          <div class="row bold-text">Instititions Affiliated With</div>
-          <div class="row light-text smaller-font">{{ affiliation }}</div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="container">
-          <div class="row bold-text">Diagnosis Supported</div>
-          <div class="row light-text smaller-font">
-            {{ diagnosis }}
-          </div>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="container">
-          <div class="row bold-text">Average Amount Provided</div>
-          <div class="row light-text smaller-font">
-            {{ amountProvided }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </a>
+  <div id="title-row" class="row">
+    <div class="col-8 bold-text">Charity Overview</div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Website</div>
+    <div class="col-5">https://thenccs.org/financial-assistance</div>
+    <div class="col-3"></div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Location</div>
+    <div class="col-5">500 North Broadway, Suite 1850, St Louis MO 63102</div>
+    <div class="col-3"></div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Average Amount Provided</div>
+    <div class="col-5">$5,000</div>
+    <div class="col-3"></div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Institutions Affiliated With</div>
+    <div class="col-5">Mayo Clinic</div>
+    <div class="col-3"></div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Diagnosis Supported</div>
+    <div class="col-5">Brain Tumor, Leukemia, Sarcoma</div>
+    <div class="col-3"></div>
+  </div>
+
+  <div id="info-row" class="row light-text">
+    <div class="col-4">Locations Supported</div>
+    <div class="col-5">All 50 States</div>
+    <div class="col-3"></div>
+  </div>
 </div>
