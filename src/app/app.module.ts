@@ -14,6 +14,7 @@ import { SearchComponent } from './search/search.component';
 import { CharityComponent } from './charity/charity.component';
 import { CharityListComponent } from './charity-list/charity-list.component';
 import { ChatBoxComponent } from './chat-box/chat-box.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ChatBoxComponent } from './chat-box/chat-box.component';
     CharityComponent,
     CharityListComponent,
     ChatBoxComponent,
+    ReviewComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
